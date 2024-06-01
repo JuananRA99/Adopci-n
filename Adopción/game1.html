@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preload" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.1-web/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Universae</title>
+
+</head>
+<body>
+    <header>
+    <div class="logo-container">
+        <a href="index.html" class="logo">
+            <img src="img/logo.jpg" width="200" height="200" alt="Universae Logo">
+          </a>
+       <h1 class="logo-text"> Centro de adopción animal</h>
+      
+    </div>
+</header>
+
+    <main>
+        <div class="contenido">
+           
+            <div class="info">
+                <h1>Explicación del centro de adopción</h1>
+                <p>Después de más de una década de duro trabajo, por fin el 3 de marzo de 2024 se inauguró el nuevo Centro de Adopción. Fue Construido contando con la experiencia acumulada durante los 11 años previos de funcionamiento y con la información recogida en otros centros europeos, se creó un espacio global de protección animal pionero en España. Cuenta con una capacidad para alojar a 150 perros, 40 gatos y acoger hasta 15 conejos, y actualmente recibe a más de 2.000 animales abandonados al año.
+                 
+                    Durante su estancia, reciben los cuidados que necesitan: alimentación, ejercicio, cariño y atención veterinaria.  El objetivo es que todos los animales sean adoptados y encuentren una familia que les ofrezcan las condiciones necesarias para su óptima calidad de vida.
+               
+                    En el Centro de Adopción trabajan a diario tanto personal contratado como voluntarios, que aportan su tiempo altruistamente, con el objetivo de que los animales estén en las mejores condiciones posibles.
+                </p>
+                <h2>Instalaciones</h2>
+                <p>El Centro cuenta con edificaciones independientes para cada especie y estado de salud (naves de estancia y cuarentena para perros, gatos y otros animales), clínica veterinaria con consulta, dos quirófanos, sala de rayos X y hospitalización, además de sala de baños terapéuticos y oficina, entre otras instalaciones.
+                </p>
+                <h2>Cuarentenas</h2>
+                <p>Todos los animales que llegan al Centro de Adopción pasan un periodo de observación en zonas especialmente preparadas para ello, existiendo tres salas de cuarentena para gatos y dos zonas de cuarentena para perros, una para cachorros y la otra para adultos. Allí reciben una estricta atención veterinaria por parte del equipo de veterinarios de la Asociación, que trabajan a diario en el centro controlando el estado sanitario de los animales acogidos. En este tiempo se les realiza un exhaustivo examen clínico que incluye un análisis de sangre (para detectar enfermedades como Leishmaniosis, Ehrlichiosis, leucemia o inmunodeficiencia felinas), la desparasitación y vacunación del animal, así como cualquier tratamiento adicional que precise según su estado. Una vez que su estado sanitario es óptimo, tanto machos como hembras son esterilizados. Pasado este periodo reciben el alta y son trasladados a la zona de adopción.</p>
+               
+               <h2>Zonas de estancia para perros</h2>
+               <p>En esta zona los perros se distribuyen según su tamaño y compatibilidad en grupos de 4 o 5 en cada una de las 40 estancias. Todas cuentan con una zona interior cubierta con calefacción y con un patio exterior al aire libre. Además, las estancias para perros tienen acceso a 8 grandes áreas de ejercicio donde los animales salen a pasear y correr a diario.
+               </p>
+                <h2>Cachorreras</h2>
+                <p>  Dadas las condiciones especiales de los cachorros (debilidad, bajas defensas…) es necesario que permanezcan aislados hasta su completa vacunación. Este área, independiente del resto de las instalaciones para perros, cumple con el objetivo de protegerlos a la vez que permite su observación por parte de los adoptantes el día de adopciones (sábados). El resto del tiempo los cachorros viven y son tutelados por el Programa de Canguros. </p>
+              <h2>Gateras</h2>
+             <p> Después de pasar  
+              por las zonas de cuarentena los gatos que han llegado al Centro de Adopción pasan a las gateras o salas de estancia, instalaciones especialmente construidas para sus necesidades, que constan de habitaciones interiores con calefacción y patios al aire libre, donde un máximo de 40 gatos comparten espacio y juegos hasta el momento de su adopción. </p>
+              <h2>Conejeras</h2>  
+              <p>Esta zona específica para Conejos cuenta con 5 estancias que pueden llegar a albergar hasta 15 conejos. Cada una de ellas tiene una zona interior con calefacción y otra con un patio exterior al aire libre.</p>
+              <h2>Edificio principal</h2>
+             
+                <p>Este edificio cuenta con varias estancias: Zona de adopciones y oficinas, hospitalizaciones, sala de Rayos X, dos quirófanos y dos consultas veterinarias, almacén, tienda y baños.
+
+                </p>
+
+                <h2>Clínica veterinaria</h2>
+                     <p>La clínica cuenta con 2 consultas, 2 quirófanos, sala de rayos X y dos hospitalizaciones para animales enfermos.
+
+                     </p>
+            </div>
+    
+                <div class="gallery">
+<div class="picture"> <img src="img/centroadopcion1.jpg" alt="Equipo 1" onclick="openModal();currentSlide(1)">  </div>
+<div class="picture"><img src="img/cuarentena_gatos.jpg"  height="633" alt="Equipo 2" onclick="openModal();currentSlide(2) ">   </div> 
+ <div class="picture"><img src="img/cachorreras.jpg" height="633"  alt="Equipo 2" onclick="openModal();currentSlide(3)"> </div> 
+ <div class="picture"><img src="img/edificio_adopciones.jpg"  height="633"     alt="Equipo 2" onclick="openModal();currentSlide(4)"> </div> 
+                </div>
+
+            </div>
+                         <!--div de contenido-->
+       
+
+              <!-- Modal lightbox-->
+
+              <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+              
+                  <div class="mySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="img/centroadopcion1.jpg"width="900" height="600">
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="img/cuarentena_gatos.jpg"  width="900" height="600">
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="img/cachorreras.jpg" width="900" height="600" >
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="img/edificio_adopciones.jpg"  width="900" height="600" >
+                  </div>
+
+
+<!-- texto-->
+
+<div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+
+
+
+
+          
+    <!-- Anterior/Posterior -->
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<!-- caption texto-->
+<div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+
+  <!-- control de imagen-->
+
+
+
+  
+
+
+  
+
+    
+
+</div>
+<!-- final div de modal-content-->
+</div>
+
+<!-- final div de modal-->
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+    
+    <footer class="pie">
+              
+   
+      
+      <p>  © 2024. Todos los derechos reservados. Aviso legal, Política de privacidad y protección de datos personales. </p>
+   
+  
+          
+        </footer>
+        
+
+<script src="script.js"></script>
+
+    </body>
+
+    </html>
